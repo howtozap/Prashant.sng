@@ -24,6 +24,8 @@ public class NokariTest {
 			
 	driver.findElement(By.className(txt));
 	
+	System.out.println("got the pull");
+	
 	
 	
 			
