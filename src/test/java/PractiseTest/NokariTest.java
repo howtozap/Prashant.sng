@@ -22,6 +22,11 @@ public class NokariTest {
 			String txt = link.getText();
 			System.out.println(txt);
 			
+	driver.findElement(By.className(txt));
+	
+	
+	
+			
 		}
 		driver.close();
 		
